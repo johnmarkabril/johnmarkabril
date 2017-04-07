@@ -9,12 +9,7 @@
             <div class="row">
 
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
+                    <a href="">
                         <img src="<?php echo base_url(); ?>public/img/projects/jmaeprovider.png" class="img-responsive" alt="" style="width: 360px; height:260px;">
                     </a>
                     <div class="portfolio-caption">
@@ -24,12 +19,7 @@
                 </div>
 
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
+                    <a href="">
                         <img src="<?php echo base_url(); ?>public/img/projects/design2.png" class="img-responsive" alt="" style="width: 360px; height:260px;">
                     </a>
                     <div class="portfolio-caption">
@@ -39,12 +29,7 @@
                 </div>
 
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
+                    <a href="">
                         <img src="<?php echo base_url(); ?>public/img/projects/payroll.png" class="img-responsive" alt="" style="width: 360px; height:260px;">
                     </a>
                     <div class="portfolio-caption">
@@ -54,12 +39,7 @@
                 </div>
 
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
+                    <a href="">
                         <img src="<?php echo base_url(); ?>public/img/projects/movietheater.jpg" class="img-responsive" alt="" style="width: 360px; height:260px;">
                     </a>
                     <div class="portfolio-caption">
@@ -69,12 +49,7 @@
                 </div>
 
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
+                    <a href="">
                         <img src="<?php echo base_url(); ?>public/img/projects/barangaymismonitor.jpg" class="img-responsive" alt="" style="width: 360px; height:260px;">
                     </a>
                     <div class="portfolio-caption">
@@ -84,12 +59,7 @@
                 </div>
 
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
+                    <a href="">
                         <img src="<?php echo base_url(); ?>public/img/projects/barangaymis.jpg" class="img-responsive" alt="" style="width: 360px; height:260px;">
                     </a>
                     <div class="portfolio-caption">
@@ -99,12 +69,7 @@
                 </div>
 
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
+                    <a href="">
                         <img src="<?php echo base_url(); ?>public/img/projects/cabsproject.jpg" class="img-responsive" alt="" style="width: 360px; height:260px;">
                     </a>
                     <div class="portfolio-caption">
@@ -114,12 +79,7 @@
                 </div>
 
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
+                    <a href="">
                         <img src="<?php echo base_url(); ?>public/img/projects/cdrkingpos.jpg" class="img-responsive" alt="" style="width: 360px; height:260px;">
                     </a>
                     <div class="portfolio-caption">

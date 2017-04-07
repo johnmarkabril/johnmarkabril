@@ -9,6 +9,11 @@ body {
 	color: #BB1919;
 }
 
+.progress-style {
+	overflow: visible;
+	width: 100%;
+}
+
 .no-margin {
 	margin: 0px;
 }
