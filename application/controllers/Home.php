@@ -7,7 +7,10 @@ class Home extends CI_Controller {
     {
         parent::__construct();
         $this->curpage = "JOHNMARKABRIL";
-        // $this->load->model('Users_model');
+        $this->load->model('About_model');
+        $this->load->model('Projects_model');
+
+
 
     	date_default_timezone_set("Asia/Manila");
     	$this->date = date("F d, Y");
@@ -17,7 +20,8 @@ class Home extends CI_Controller {
 	public function index()
 	{
 		$details = array (
-
+			'get_all_projects'		=>	$this->Projects_model->get_all_projects(),
+			'get_all_about'			=>	$this->About_model->get_all_about()
 		);
 
 		$data['content']	=	$this->load->view('home', $details, TRUE);

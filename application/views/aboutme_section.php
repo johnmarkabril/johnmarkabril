@@ -9,36 +9,56 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <ul class="timeline">
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="<?php echo base_url(); ?>public/img/ojt.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>April 2016 - May 2016</h4>
-                                    <h4 class="subheading">Web Developer Intern</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Involved in the development of Gabbyville, coded using different JavaScript libraries, CodeIgniter frameworks and some google APIs. Finishing a difficult task on time. </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="<?php echo base_url(); ?>public/img/graduate.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>June 2013 - May 2017</h4>
-                                    <h4 class="subheading">Degree Holder</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">A degree holder of four year course in information technology. Graduated at Divine Mercy College Foundation. On my thesis, we've (with my accomplice) build up a site that the client can lease a cms template with selling. I'm focusing my web development abilities. I've take numerous instructional exercises online as far as web development.</p>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
+                    <?php
+                        if ( !empty($get_all_about) ) {
+                            $ctr = 1;
+                    ?>
+                            <ul class="timeline">
+                            <?php
+                                foreach ( $get_all_about as $gaa ) :
+                                    if ( $ctr == 1 ) {
+                            ?>
+                                        <li>
+                                            <div class="timeline-image">
+                                                <img class="img-circle img-responsive" src="<?php echo base_url(); ?>public/img/ojt.jpg" alt="">
+                                            </div>
+                                            <div class="timeline-panel">
+                                                <div class="timeline-heading">
+                                                    <h4><?php echo $gaa->TITLE;?></h4>
+                                                    <h4 class="subheading"><?php echo $gaa->SUBTITLE;?></h4>
+                                                </div>
+                                                <div class="timeline-body">
+                                                    <p class="text-muted"><?php echo $gaa->DESCRIPTION;?></p>
+                                                </div>
+                                            </div>
+                                        </li>
+                            <?php
+                                        $ctr++;
+                                    } else {
+                            ?>
+                                        <li class="timeline-inverted">
+                                            <div class="timeline-image">
+                                                <img class="img-circle img-responsive" src="<?php echo base_url(); ?>public/img/graduate.jpg" alt="">
+                                            </div>
+                                            <div class="timeline-panel">
+                                                <div class="timeline-heading">
+                                                    <h4><?php echo $gaa->TITLE;?></h4>
+                                                    <h4 class="subheading"><?php echo $gaa->SUBTITLE;?></h4>
+                                                </div>
+                                                <div class="timeline-body">
+                                                    <p class="text-muted"><?php echo $gaa->DESCRIPTION;?></p>
+                                                </div>
+                                            </div>
+                                        </li>
+                            <?php
+                                        $ctr--;
+                                    }
+                                endforeach;
+                            ?>
+                            </ul>
+                    <?php
+                        }
+                    ?>
                 </div>
             </div>
         </div>
