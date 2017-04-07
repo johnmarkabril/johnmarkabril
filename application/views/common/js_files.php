@@ -13,6 +13,11 @@
 
 <script>
 
+	$(document).ready(function(){
 
+		$("#btn-down-resume").click(function(){
+			location.href="<?php base_url(); ?>public/files/JOHNMARKABRIL.pdf";
+		});
+	});
 
 </script>
